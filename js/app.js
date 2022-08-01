@@ -53,7 +53,7 @@ but3.addEventListener('click', function(){
     toggle2 = true;
     anime({
       targets: '.third',
-      width: '40%', // -> from '28px' to '100%',
+      width: '51.8%', // -> from '28px' to '100%',
       easing: 'easeInOutQuad',
       direction: 'alternate',
       loop: false
@@ -76,7 +76,7 @@ but4.addEventListener('click', function(){
       targets: '.fourth',
       keyframes: [
         {translateY: -20},
-        {translateX: 300},
+        {translateX: 400},
         {translateY: -70},
         {translateY: 70},
         {translateY: 20},
