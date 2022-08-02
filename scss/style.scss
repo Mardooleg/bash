@@ -9,15 +9,17 @@ button:hover {
     background-color: #576F72;
     transition: 0.5s;
 }
-// .controller{
-//     display: grid;
-//     grid-row: 1f 1f;
-//     grid-template-columns: 1;
-// }
+svg{
+    cursor: pointer;
+    margin-top: 15px;
+}
+.controller{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 // .left{
 //     display: grid;
-//     grid-template-rows: 100px 100px 100px;
-//     grid-template-columns: 2000px;
+//     grid-template-columns: 1fr 1fr;
 //     border: 2px solid #000;
 // }
 
@@ -29,7 +31,7 @@ button:hover {
     margin-left: 25px;
     margin-top: 25px;
     font-family: 'Montserrat', sans-serif;
-    width: 25%;
+    width: 400px;
     border-radius: 15px;
     background: #7D9D9C;
 text-align: center;
@@ -41,7 +43,7 @@ text-align: center;
     margin-left: 25px;
     margin-top: 25px;
     font-family: 'Montserrat', sans-serif;
-    width: 25%;
+    width: 400px;
     text-align: center;
     border-radius: 15px;
     background: #7D9D9C;}
@@ -52,7 +54,7 @@ text-align: center;
     margin-left: 25px;
     margin-top: 25px;
     font-family: 'Montserrat', sans-serif;
-    width: 25%;
+    width: 400px;
     text-align: center;
     border-radius: 15px;
     background: #7D9D9C;
@@ -64,7 +66,19 @@ text-align: center;
     margin-left: 25px;
     margin-top: 25px;
     font-family: 'Montserrat', sans-serif;
-    width: 25%;
+    width: 400px;
+    text-align: center;
+    border-radius: 15px;
+    background: #7D9D9C;
+}
+.fifth{
+    // border: 2px solid #000;
+    font-size: 60px;
+    color: black;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
     text-align: center;
     border-radius: 15px;
     background: #7D9D9C;
@@ -115,4 +129,18 @@ text-align: center;
         font-family: 'Montserrat', sans-serif;
         font-size: 25px;
         border-radius: 10px;
+    }
+    .but5{
+        width: 130px;
+        height: 50px;
+        margin-left: 25px;
+        margin-top: 25px;
+        border: none;
+        background-color: #7D9D9C;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+    .sun{
+        text-align: center;
     }
