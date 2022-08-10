@@ -8,7 +8,6 @@ body {
 }
 
 svg {
-  cursor: pointer;
   margin-top: 15px;
 }
 
@@ -27,6 +26,7 @@ svg {
   border-radius: 15px;
   background: #7D9D9C;
   text-align: center;
+  cursor: default;
 }
 
 .sec {
@@ -39,6 +39,7 @@ svg {
   text-align: center;
   border-radius: 15px;
   background: #7D9D9C;
+  cursor: default;
 }
 
 .third {
@@ -51,6 +52,7 @@ svg {
   text-align: center;
   border-radius: 15px;
   background: #7D9D9C;
+  cursor: default;
 }
 
 .fourth {
@@ -63,6 +65,7 @@ svg {
   text-align: center;
   border-radius: 15px;
   background: #7D9D9C;
+  cursor: default;
 }
 
 .fifth {
@@ -74,6 +77,7 @@ svg {
   text-align: center;
   border-radius: 15px;
   background: #7D9D9C;
+  cursor: default;
 }
 
 .but1 {
@@ -86,6 +90,7 @@ svg {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .but2 {
@@ -98,6 +103,7 @@ svg {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .but3 {
@@ -110,6 +116,7 @@ svg {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .but4 {
@@ -122,6 +129,7 @@ svg {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .but5 {
@@ -133,6 +141,7 @@ svg {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .sun {
