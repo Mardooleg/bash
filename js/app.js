@@ -26,8 +26,9 @@ let toggle3 = false;
 let toggle4 = false; 
 let toggle5 = false; 
 
+// localStorage.setItem('bool', toggle4);
+
 const def = {   // Стандартний набір кольорів для світлої та темної тем
-  
   1 :'#F0EBE3', // Світлий фон 
   2 :'#2C3639', // Темний фон 
   3 :'#3F4E4F', // Наводження на світлу тему 
@@ -36,7 +37,6 @@ const def = {   // Стандартний набір кольорів для с�
   6: '#3F4E4F', // Базовий колір темної кнопки
   7: '#000',    // Колір світлого тексту 
   8: '#DCD7C9'  // Колір темного тексту
-
 };  
 
 const pathS =
@@ -50,6 +50,8 @@ const pathM =
       listiner(but3,  def[3], def[4], def[5], def[6]);
       listiner(but4,  def[3], def[4], def[5], def[6]);
       listiner(but5,  def[3], def[4], def[5], def[6]);
+
+
 
 
 
@@ -124,6 +126,9 @@ darkmode.addEventListener('click', ()=>{
       targets: darkmode,
       rotate: 320}, '-= 1450');
   toggle4 = true;
+  localStorage.setItem('bool', toggle4)
+  // console.log(localStorage.getItem('bool'));
+
 
 }else{    // Світла тема 
 
@@ -141,6 +146,8 @@ darkmode.addEventListener('click', ()=>{
       d: [
         {value: pathS}]}, '-= 1450' )
   toggle4 = false;
+  localStorage.setItem('bool', toggle4)
+
 }
 }); 
 
